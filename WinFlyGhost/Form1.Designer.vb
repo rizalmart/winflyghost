@@ -48,7 +48,6 @@ Partial Class frmmain
         Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.PackageName, Me.BgEnabled})
-        Me.DataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
         Me.DataGridView1.Location = New System.Drawing.Point(0, 27)
         Me.DataGridView1.MultiSelect = False
         Me.DataGridView1.Name = "DataGridView1"
@@ -76,6 +75,7 @@ Partial Class frmmain
         Me.PackageName.DefaultCellStyle = DataGridViewCellStyle2
         Me.PackageName.HeaderText = "Package Name"
         Me.PackageName.Name = "PackageName"
+        Me.PackageName.ReadOnly = True
         Me.PackageName.Width = 500
         '
         'BgEnabled
